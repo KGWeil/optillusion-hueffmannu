@@ -18,7 +18,7 @@ public class wellen extends PApplet
     @Override
     public void settings()
     {
-        size(500,500);
+        size(500,400);
     }        
 
     /**
@@ -29,19 +29,9 @@ public class wellen extends PApplet
     @Override
     public void setup()
     {
-
+        line((int)100.5,200,0,0);
     }
 
-    /**
-     * Die draw() Methode wird nach der setup() Methode aufgerufen
-     * und führt den Code innerhalb ihres Blocks fortlaufend aus,
-     * bis das Programm gestoppt oder noLoop() aufgerufen wird.
-     */
-    @Override
-    public void draw()
-    {
-
-    }
 
     /**
      * Mit der main()-Methode wird das Programm gestartet.
